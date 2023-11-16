@@ -34,7 +34,7 @@
           <int>7</int>
         </entry>
       </elementAttributes>
-      <pos x="280" y="380"/>
+      <pos x="520" y="380"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -48,7 +48,7 @@
           <int>7</int>
         </entry>
       </elementAttributes>
-      <pos x="740" y="440"/>
+      <pos x="740" y="380"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -62,7 +62,7 @@
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="820" y="520"/>
+      <pos x="740" y="580"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -86,35 +86,7 @@
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="280" y="460"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>opcode</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>7</int>
-        </entry>
-      </elementAttributes>
-      <pos x="280" y="520"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>funct3</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>3</int>
-        </entry>
-      </elementAttributes>
-      <pos x="280" y="580"/>
+      <pos x="520" y="580"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -126,91 +98,103 @@
       </elementAttributes>
       <pos x="1120" y="500"/>
     </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>19</long>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+      </elementAttributes>
+      <pos x="520" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="520" y="640"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
-      <p1 x="900" y="480"/>
+      <p1 x="940" y="480"/>
       <p2 x="960" y="480"/>
     </wire>
     <wire>
-      <p1 x="280" y="580"/>
-      <p2 x="800" y="580"/>
+      <p1 x="800" y="400"/>
+      <p2 x="940" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="400"/>
+      <p2 x="740" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="640"/>
+      <p2 x="720" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="580"/>
+      <p2 x="740" y="580"/>
     </wire>
     <wire>
       <p1 x="1040" y="500"/>
       <p2 x="1120" y="500"/>
     </wire>
     <wire>
-      <p1 x="900" y="520"/>
+      <p1 x="800" y="600"/>
+      <p2 x="940" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="600"/>
+      <p2 x="740" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="520"/>
       <p2 x="960" y="520"/>
     </wire>
     <wire>
-      <p1 x="280" y="520"/>
-      <p2 x="720" y="520"/>
+      <p1 x="520" y="440"/>
+      <p2 x="720" y="440"/>
     </wire>
     <wire>
-      <p1 x="740" y="520"/>
-      <p2 x="820" y="520"/>
+      <p1 x="520" y="380"/>
+      <p2 x="740" y="380"/>
     </wire>
     <wire>
-      <p1 x="460" y="440"/>
-      <p2 x="740" y="440"/>
+      <p1 x="720" y="400"/>
+      <p2 x="720" y="440"/>
     </wire>
     <wire>
-      <p1 x="800" y="460"/>
-      <p2 x="900" y="460"/>
+      <p1 x="720" y="600"/>
+      <p2 x="720" y="640"/>
     </wire>
     <wire>
-      <p1 x="720" y="460"/>
-      <p2 x="740" y="460"/>
+      <p1 x="940" y="400"/>
+      <p2 x="940" y="480"/>
     </wire>
     <wire>
-      <p1 x="280" y="460"/>
-      <p2 x="300" y="460"/>
-    </wire>
-    <wire>
-      <p1 x="880" y="540"/>
-      <p2 x="900" y="540"/>
-    </wire>
-    <wire>
-      <p1 x="800" y="540"/>
-      <p2 x="820" y="540"/>
-    </wire>
-    <wire>
-      <p1 x="300" y="540"/>
-      <p2 x="740" y="540"/>
-    </wire>
-    <wire>
-      <p1 x="280" y="380"/>
-      <p2 x="460" y="380"/>
-    </wire>
-    <wire>
-      <p1 x="800" y="540"/>
-      <p2 x="800" y="580"/>
-    </wire>
-    <wire>
-      <p1 x="720" y="460"/>
-      <p2 x="720" y="520"/>
-    </wire>
-    <wire>
-      <p1 x="900" y="520"/>
-      <p2 x="900" y="540"/>
-    </wire>
-    <wire>
-      <p1 x="900" y="460"/>
-      <p2 x="900" y="480"/>
-    </wire>
-    <wire>
-      <p1 x="740" y="520"/>
-      <p2 x="740" y="540"/>
-    </wire>
-    <wire>
-      <p1 x="460" y="380"/>
-      <p2 x="460" y="440"/>
-    </wire>
-    <wire>
-      <p1 x="300" y="460"/>
-      <p2 x="300" y="540"/>
+      <p1 x="940" y="520"/>
+      <p2 x="940" y="600"/>
     </wire>
   </wires>
   <measurementOrdering/>

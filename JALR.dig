@@ -41,20 +41,6 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>opcode</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>7</int>
-        </entry>
-      </elementAttributes>
-      <pos x="320" y="520"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
           <string>iw-funct3</string>
         </entry>
         <entry>
@@ -62,21 +48,7 @@
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="320" y="460"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>funct3</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>3</int>
-        </entry>
-      </elementAttributes>
-      <pos x="320" y="640"/>
+      <pos x="320" y="580"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -126,6 +98,42 @@
       </elementAttributes>
       <pos x="1000" y="500"/>
     </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>103</long>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="640"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -153,7 +161,7 @@
       <p2 x="1000" y="500"/>
     </wire>
     <wire>
-      <p1 x="520" y="580"/>
+      <p1 x="320" y="580"/>
       <p2 x="580" y="580"/>
     </wire>
     <wire>
@@ -169,12 +177,8 @@
       <p2 x="820" y="520"/>
     </wire>
     <wire>
-      <p1 x="320" y="520"/>
-      <p2 x="560" y="520"/>
-    </wire>
-    <wire>
-      <p1 x="320" y="460"/>
-      <p2 x="520" y="460"/>
+      <p1 x="320" y="440"/>
+      <p2 x="560" y="440"/>
     </wire>
     <wire>
       <p1 x="560" y="600"/>
@@ -182,7 +186,7 @@
     </wire>
     <wire>
       <p1 x="560" y="420"/>
-      <p2 x="560" y="520"/>
+      <p2 x="560" y="440"/>
     </wire>
     <wire>
       <p1 x="800" y="520"/>
@@ -191,10 +195,6 @@
     <wire>
       <p1 x="800" y="420"/>
       <p2 x="800" y="480"/>
-    </wire>
-    <wire>
-      <p1 x="520" y="460"/>
-      <p2 x="520" y="580"/>
     </wire>
   </wires>
   <measurementOrdering/>
