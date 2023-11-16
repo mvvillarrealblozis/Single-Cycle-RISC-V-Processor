@@ -14,6 +14,10 @@
           <string>Label</string>
           <string>CLK</string>
         </entry>
+        <entry>
+          <string>Frequency</string>
+          <int>200</int>
+        </entry>
       </elementAttributes>
       <pos x="200" y="-500"/>
     </visualElement>
@@ -1706,7 +1710,7 @@
           <string>WDsel</string>
         </entry>
       </elementAttributes>
-      <pos x="1040" y="-660"/>
+      <pos x="1040" y="-640"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1716,7 +1720,7 @@
           <string>PCsel</string>
         </entry>
       </elementAttributes>
-      <pos x="1040" y="-640"/>
+      <pos x="1040" y="-620"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1726,7 +1730,7 @@
           <string>ALUSrcB</string>
         </entry>
       </elementAttributes>
-      <pos x="1040" y="-620"/>
+      <pos x="1040" y="-600"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1736,7 +1740,7 @@
           <string>ALUSrcA</string>
         </entry>
       </elementAttributes>
-      <pos x="1040" y="-600"/>
+      <pos x="1040" y="-580"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1746,7 +1750,7 @@
           <string>ALUOp</string>
         </entry>
       </elementAttributes>
-      <pos x="1040" y="-580"/>
+      <pos x="1040" y="-560"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1756,7 +1760,7 @@
           <string>RFW</string>
         </entry>
       </elementAttributes>
-      <pos x="1040" y="-560"/>
+      <pos x="1040" y="-540"/>
     </visualElement>
     <visualElement>
       <elementName>Testcase</elementName>
@@ -2131,10 +2135,6 @@ end while
 0   1   0   15 25  3  4  5</dataString>
           </testData>
         </entry>
-        <entry>
-          <string>enabled</string>
-          <boolean>false</boolean>
-        </entry>
       </elementAttributes>
       <pos x="2520" y="-160"/>
     </visualElement>
@@ -2289,6 +2289,35 @@ end while
       </elementAttributes>
       <pos x="1820" y="-180"/>
     </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>BROp</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="-660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>BRunit.dig</elementName>
+      <elementAttributes/>
+      <pos x="1740" y="-560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>BROp</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1800" y="-600"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -2362,6 +2391,10 @@ end while
     <wire>
       <p1 x="1480" y="920"/>
       <p2 x="1500" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="-540"/>
+      <p2 x="1040" y="-540"/>
     </wire>
     <wire>
       <p1 x="380" y="-160"/>
@@ -2806,6 +2839,10 @@ end while
     <wire>
       <p1 x="520" y="-100"/>
       <p2 x="520" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="1800" y="-600"/>
+      <p2 x="1800" y="-560"/>
     </wire>
     <wire>
       <p1 x="780" y="120"/>

@@ -167,7 +167,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>R</string>
+          <string>eq</string>
         </entry>
       </elementAttributes>
       <pos x="740" y="280"/>

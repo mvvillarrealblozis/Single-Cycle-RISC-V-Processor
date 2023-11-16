@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes>
+    <entry>
+      <string>shapeType</string>
+      <shapeType>LAYOUT</shapeType>
+    </entry>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+    <entry>
+      <string>Height</string>
+      <int>4</int>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>6</int>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>OPC</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+      </elementAttributes>
+      <pos x="440" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>funct3</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="440" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Comparator</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>BLT</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Comparator</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>99</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>4</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>eq</string>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="400"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="440" y="320"/>
+      <p2 x="580" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="400"/>
+      <p2 x="920" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="340"/>
+      <p2 x="760" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="340"/>
+      <p2 x="580" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="420"/>
+      <p2 x="780" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="440"/>
+      <p2 x="580" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="380"/>
+      <p2 x="780" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="460"/>
+      <p2 x="760" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="460"/>
+      <p2 x="580" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="340"/>
+      <p2 x="760" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="420"/>
+      <p2 x="760" y="460"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
