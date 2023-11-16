@@ -24,6 +24,10 @@
           <string>Label</string>
           <string>PROG</string>
         </entry>
+        <entry>
+          <string>Bits</string>
+          <int>5</int>
+        </entry>
       </elementAttributes>
       <pos x="200" y="-100"/>
     </visualElement>
