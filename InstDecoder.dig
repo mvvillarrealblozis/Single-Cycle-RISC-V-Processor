@@ -104,7 +104,7 @@
         <entry>
           <string>Data</string>
           <data>8200,8000,8ec0,82c0,a000,9000,b000,c000,d200,e200,f200,d00,d10
-,d20,d30,8204</data>
+,d20,d30,8204,8206,8207</data>
         </entry>
         <entry>
           <string>intFormat</string>
