@@ -104,7 +104,7 @@
         <entry>
           <string>Data</string>
           <data>40400,40000,42d40,40540,44000,48000,4c000,50000,54400,58400,5c400
-,2a00,2a10,2a20,2a30,40484,40485,40486,100c,100d,100e,60000,64000</data>
+,2a40,2a50,2a60,2a70,40484,40485,40486,100c,100d,100e,60000,64000</data>
         </entry>
         <entry>
           <string>intFormat</string>
@@ -123,7 +123,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>j-type</string>
+          <string>jal</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -483,20 +483,6 @@
         <entry>
           <string>NetName</string>
           <string>iw-f3</string>
-        </entry>
-      </elementAttributes>
-      <pos x="640" y="1780"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>iw-f7</string>
         </entry>
       </elementAttributes>
       <pos x="640" y="1800"/>
@@ -1233,10 +1219,6 @@
       <p2 x="680" y="2440"/>
     </wire>
     <wire>
-      <p1 x="640" y="1800"/>
-      <p2 x="680" y="1800"/>
-    </wire>
-    <wire>
       <p1 x="1340" y="1160"/>
       <p2 x="1360" y="1160"/>
     </wire>
@@ -1247,6 +1229,10 @@
     <wire>
       <p1 x="800" y="3720"/>
       <p2 x="1240" y="3720"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="1800"/>
+      <p2 x="680" y="1800"/>
     </wire>
     <wire>
       <p1 x="640" y="1420"/>
@@ -1659,10 +1645,6 @@
     <wire>
       <p1 x="800" y="1780"/>
       <p2 x="960" y="1780"/>
-    </wire>
-    <wire>
-      <p1 x="640" y="1780"/>
-      <p2 x="680" y="1780"/>
     </wire>
     <wire>
       <p1 x="640" y="1140"/>

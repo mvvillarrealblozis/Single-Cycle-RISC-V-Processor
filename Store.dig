@@ -343,7 +343,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>w0</string>
+          <string>wn</string>
         </entry>
       </elementAttributes>
       <pos x="380" y="820"/>
@@ -357,7 +357,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>wn</string>
+          <string>w0</string>
         </entry>
       </elementAttributes>
       <pos x="380" y="760"/>
