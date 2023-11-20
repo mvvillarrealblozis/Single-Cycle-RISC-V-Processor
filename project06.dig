@@ -2085,8 +2085,12 @@ end while
 0   1   0   12 99  0  0  0</dataString>
           </testData>
         </entry>
+        <entry>
+          <string>enabled</string>
+          <boolean>false</boolean>
+        </entry>
       </elementAttributes>
-      <pos x="2580" y="-400"/>
+      <pos x="3020" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>Testcase</elementName>
@@ -2107,8 +2111,12 @@ end while
 0   1   0   13 99  0  0  0</dataString>
           </testData>
         </entry>
+        <entry>
+          <string>enabled</string>
+          <boolean>false</boolean>
+        </entry>
       </elementAttributes>
-      <pos x="2580" y="-320"/>
+      <pos x="3020" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>Testcase</elementName>
@@ -2134,7 +2142,7 @@ end while
           <boolean>false</boolean>
         </entry>
       </elementAttributes>
-      <pos x="2580" y="-240"/>
+      <pos x="3020" y="300"/>
     </visualElement>
     <visualElement>
       <elementName>Testcase</elementName>
@@ -2160,7 +2168,7 @@ end while
           <boolean>false</boolean>
         </entry>
       </elementAttributes>
-      <pos x="3020" y="200"/>
+      <pos x="3020" y="380"/>
     </visualElement>
     <visualElement>
       <elementName>Testcase</elementName>
@@ -2186,7 +2194,7 @@ end while
           <boolean>false</boolean>
         </entry>
       </elementAttributes>
-      <pos x="2580" y="-80"/>
+      <pos x="3020" y="460"/>
     </visualElement>
     <visualElement>
       <elementName>Testcase</elementName>
@@ -2212,7 +2220,7 @@ end while
           <boolean>false</boolean>
         </entry>
       </elementAttributes>
-      <pos x="2580" y="0"/>
+      <pos x="3020" y="540"/>
     </visualElement>
     <visualElement>
       <elementName>Testcase</elementName>
@@ -2238,7 +2246,7 @@ end while
           <boolean>false</boolean>
         </entry>
       </elementAttributes>
-      <pos x="2580" y="80"/>
+      <pos x="3020" y="620"/>
     </visualElement>
     <visualElement>
       <elementName>Testcase</elementName>
@@ -2258,10 +2266,6 @@ while (!(DONE))
 end while
 0   1   0   19 5066355251797426176  1014  0  0</dataString>
           </testData>
-        </entry>
-        <entry>
-          <string>enabled</string>
-          <boolean>false</boolean>
         </entry>
       </elementAttributes>
       <pos x="2580" y="160"/>
