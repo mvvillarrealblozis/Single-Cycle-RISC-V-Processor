@@ -99,12 +99,12 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>19</int>
+          <int>18</int>
         </entry>
         <entry>
           <string>Data</string>
-          <data>40400,40000,42d40,40540,44000,48000,4c000,50000,54400,58400,5c400
-,2a40,2a50,2a60,2a70,40484,40485,40486,100c,100d,100e,60000,64000</data>
+          <data>20400,20000,22d40,20540,24000,28000,2c000,30000,2c400,30400,34400
+,2a40,2a50,2a60,2a70,20484,20485,20486,100c,100d,100e,38000,3c000</data>
         </entry>
         <entry>
           <string>intFormat</string>
@@ -197,11 +197,11 @@
       <elementAttributes>
         <entry>
           <string>Input Splitting</string>
-          <string>19</string>
+          <string>18</string>
         </entry>
         <entry>
           <string>Output Splitting</string>
-          <string>0-1,2-2,3-3,4-5,6-7,8-9,10-12,13-13,14-17,18-18</string>
+          <string>0-1,2-2,3-3,4-5,6-7,8-9,10-12,13-13,14-16,17-17</string>
         </entry>
       </elementAttributes>
       <pos x="1680" y="720"/>
@@ -596,7 +596,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>4</int>
+          <int>3</int>
         </entry>
       </elementAttributes>
       <pos x="1920" y="1200"/>
