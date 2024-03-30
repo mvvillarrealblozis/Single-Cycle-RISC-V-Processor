@@ -32,3 +32,6 @@ Verified through automated unit and program tests designed for comprehensive fun
 ## Development Tools
 - **Digital:** Circuit design and simulation.
 - **Python:** Script provided for creating a decode ROM hex file for instruction decoding.
+
+##Top Level Circuit: 
+![image](https://github.com/mvvillarrealblozis/Single-Cycle-RISC-V-Processor/assets/112027248/1c015f1f-8fd3-42ed-9581-22f941c57808)
