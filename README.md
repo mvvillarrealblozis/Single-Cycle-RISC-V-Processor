@@ -29,9 +29,6 @@ This project implements a single-cycle microarchitecture for a subset of the RIS
 ## Tests
 Verified through automated unit and program tests designed for comprehensive functionality validation.
 
-### Running Tests:
-Refer to the tests directory for instructions on executing these tests.
-
 ## Development Tools
 - **Digital:** Circuit design and simulation.
 - **Python:** Script provided for creating a decode ROM hex file for instruction decoding.
