@@ -30,7 +30,7 @@ This project implements a single-cycle microarchitecture for a subset of the RIS
 Verified through automated unit and program tests designed for comprehensive functionality validation.
 
 ## Development Tools
-- **Digital:** Circuit design and simulation.
+- **Digital:** Circuit design and simulation [https://github.com/hneemann/Digital]
 - **Python:** Script provided for creating a decode ROM hex file for instruction decoding.
 
 ## Top Level Circuit: 
